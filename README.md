@@ -8,4 +8,4 @@ Test controller for the KFUPM F1TENTH Stage 3 platform (organizer test, not a te
 - Entry point: `ros2 run kfupm_test_faulty controller`
 - Starts moving: within 2 s
 
-Like the learner, but with two typical mistakes (on purpose): a hard-coded /home/... data path and a crash when no lap was saved.
+Corrected on branch `fix-ready`: uses F1TENTH_DATA_DIR and still drives with an empty data folder. The `stage3-final` tag is the faulty version (two deliberate mistakes: a hard-coded /home/... data path and a crash when no lap was saved).
